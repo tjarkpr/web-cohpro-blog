@@ -6,12 +6,10 @@
     <h1><a href="/">Feed</a></h1>
   </header>
   <main>
-    <p><strong>Impressum</strong></p>
-    <p>Anbieter:<br />Max Mustermann<br />Musterstraße 1<br />80999 München</p>
-    <p>Kontakt:<br />Telefon: 089/1234567-8<br />Telefax: 089/1234567-9<br />E-Mail: mail@mustermann.de<br />Website: www.mustermann.de</p>
-    <p> </p>
-    <p>Bei redaktionellen Inhalten:</p>
-    <p>Verantwortlich nach § 55 Abs.2 RStV<br />Moritz Schreiberling<br />Musterstraße 2<br />80999 München</p>
+    <div>
+        <h1 class="text-center" style="margin-top: 25vh;">🙃</h1>
+        <h3 class="text-center">Not Found!</h3>
+    </div>
   </main>
   <footer class="px-4 d-flex justify-content-between flex-row fixed-bottom">
     <small>© Tjark & Johanna</small>

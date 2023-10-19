@@ -1,0 +1,38 @@
+{
+    "tjark": [
+        {
+            "title": "Tracing Log-Messages and Exceptions in Distributed Systems",
+            "subtitle": "Implementing the W3C Trace Context Standard in .NET Applications",
+            "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fVOESBtOpRtY3nZ3VGwmYw.jpeg",
+            "text": "Modern applications tend to shift away from a monolithic towards a distributed infrastructure by design. But how do we trace exceptions and log messages?",
+            "timestamp": "6. August 2023",
+            "link": "b3de81df-bca6-44ce-bbbb-d8f55fd433bb"
+        },
+        {
+            "title": "Explaining IMDb Movie Review Text Classification",
+            "subtitle": "Approximate Text Explanation (ATE)",
+            "image": "https://images.pexels.com/photos/278887/pexels-photo-278887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "text": "In order to make the decisions of models and algorithms used in classification and regression comprehensible, different procedures exist. But can we really trust our models?",
+            "timestamp": "9. März 2023",
+            "link": "b3de81df-bca6-bbbb-bbbb-d8f55fd433bb"
+        },
+        {
+            "title": "Top-10 Most expensive words for Airbnb titles in NYC",
+            "subtitle": "Top-10 Most expensive words for Airbnb titles in NYC",
+            "image": "https://miro.medium.com/v2/resize:fit:1400/0*QeNRN3tzOZgLjBva",
+            "text": "This article will provide you with general information about the concept of Bag-of-Words and N-Grams. While learning these basic concepts, you will also be provided with code fragments that help to understand the usage of the concepts.",
+            "timestamp": "3. Juli 2022",
+            "link": "b3de81df-bbbb-bbbb-bbbb-d8f55fd433bb"
+        }
+    ],
+    "johanna": [
+        {
+            "title": "Beispieltitel für einen Artikel",
+            "subtitle": "Beispielsubtitel für einen Artikel",
+            "image": "https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg",
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+            "timestamp": "29. August 2023",
+            "link": "b3de81df-bca6-44ce-acaf-d8f55fd433bb"
+        }
+    ]
+}
