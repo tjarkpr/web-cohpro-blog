@@ -6,7 +6,7 @@
         'subtitle',
         'image',
         'text',
-        'timestamp',
+        'datestring',
         'link'
     ]);
     const link = computed(() => { return "/article/" + props.link; });
@@ -20,7 +20,7 @@
             <h6 class="card-subtitle mb-2">{{ props.subtitle }}</h6>
             <p class="card-text">{{ props.text }}</p>
             <a :href="link" class="card-link">Mehr anzeigen</a>
-            <p class="card-text"><small>{{ props.timestamp }}</small></p>
+            <p class="card-text"><small>{{ props.datestring }}</small></p>
         </div>
     </div>
 </template>

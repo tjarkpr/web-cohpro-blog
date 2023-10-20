@@ -24,6 +24,10 @@
   </header>
   <main>
     <component v-for="item in fetchFeed($route.params.name)" :is="FeedItemComponent" v-bind="item" />
+    <div v-if="fetchFeed($route.params.name).length == 0">
+        <h1 class="text-center" style="margin-top: 25vh;">🙃</h1>
+        <h3 class="text-center">No articles found!</h3>
+    </div>
   </main>
   <footer class="px-4 d-flex justify-content-between flex-row fixed-bottom">
     <small>© Tjark & Johanna</small>

@@ -8,7 +8,7 @@ const router = createRouter({
       path: '/',
       name: 'feed',
       meta: {
-        title: '://CohPro@Blog/Feed'
+        title: 'Feed'
       },
       component: FeedView
     },
@@ -16,7 +16,7 @@ const router = createRouter({
       path: '/author-:name',
       name: 'author-feed',
       meta: {
-        title: '://CohPro@Blog/Feed/Author'
+        title: 'Feed'
       },
       component: FeedView
     },
@@ -24,7 +24,7 @@ const router = createRouter({
       path: '/article/:id',
       name: 'article',
       meta: {
-        title: '://CohPro@Blog/Feed/Article'
+        title: 'Article'
       },
       component: () => import('../views/ArticleView.vue')
     },
@@ -32,7 +32,7 @@ const router = createRouter({
       path: '/about',
       name: 'about',
       meta: {
-        title: '://CohPro@Blog/About'
+        title: 'About'
       },
       component: () => import('../views/AboutView.vue')
     },
@@ -40,7 +40,7 @@ const router = createRouter({
       path: '/privacy',
       name: 'privacy',
       meta: {
-        title: '://CohPro@Blog/Privacy'
+        title: 'Privacy'
       },
       component: () => import('../views/PrivacyView.vue')
     },
@@ -48,7 +48,7 @@ const router = createRouter({
       path: '/:pathMatch(.*)*',
       name: 'notfound',
       meta: {
-        title: '://CohPro@Blog/NotFound'
+        title: 'Not Found'
       },
       component: () => import('../views/NotFoundView.vue')
     }
@@ -56,7 +56,7 @@ const router = createRouter({
 })
 
 router.beforeEach((toRoute, _, next) => {
-  window.document.title = toRoute.meta && toRoute.meta.title ? toRoute.meta.title : '://CohPro@Blog';
+  window.document.title = toRoute.meta && toRoute.meta.title ? toRoute.meta.title : 'Blog';
   next();
 })
 
