@@ -21,8 +21,8 @@
 </script>
 
 <template>
-  <header class="d-flex justify-content-between flex-row">
-    <h1><a href="/">Feed</a></h1>
+  <header class="d-flex justify-content-end flex-row">
+    <h1 class="back"><a href="/">Back</a></h1>
   </header>
   <main>
     <div class="markdown" v-if="!failedFetch()" v-html="markdownHTML"></div>

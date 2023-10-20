@@ -4,9 +4,9 @@
 </script>
 
 <template>
-  <header class="d-flex justify-content-between flex-row">
-    <h1><a href="/">Feed</a></h1>
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <header class="d-flex justify-content-between flex-row align-items-center">
+    <h1 class="title"><a href="/">Feed</a></h1>
+    <button class="btn btn-secondary dropdown-toggle filter" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       Filter
     </button>
     <ul class="dropdown-menu">
@@ -39,6 +39,16 @@
 </template>
 
 <style scoped>
+  .filter {
+    height: fit-content;
+    color: #fff;
+    background: rgb(226, 43, 171);
+    border: none;
+  }
+  .dropdown-item.active {
+    background-color: transparent;
+    color: rgb(226, 43, 171);
+  }
   footer {
     background: var(--color-background);
   }

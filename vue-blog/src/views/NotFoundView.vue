@@ -3,7 +3,7 @@
 
 <template>
   <header class="d-flex justify-content-between flex-row">
-    <h1><a href="/">Feed</a></h1>
+    <h1 class="title"><a href="/">Feed</a></h1>
   </header>
   <main>
     <div>
