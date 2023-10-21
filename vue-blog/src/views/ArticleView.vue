@@ -30,6 +30,10 @@
         <h1 class="text-center" style="margin-top: 25vh;">🙃</h1>
         <h3 class="text-center">The article could not be found!</h3>
     </div>
+    <InArticleAdsense
+      data-ad-client="ca-pub-3632293280429419"
+      data-ad-slot="1943028282">
+    </InArticleAdsense>
   </main>
   <footer class="px-4 d-flex justify-content-between flex-row fixed-bottom">
     <small>© Tjark & Johanna</small>

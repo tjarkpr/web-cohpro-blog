@@ -28,6 +28,11 @@
         <h1 class="text-center" style="margin-top: 25vh;">🙃</h1>
         <h3 class="text-center">No articles found!</h3>
     </div>
+    <InFeedAdsense
+        data-ad-layout-key="-gi+g+7v-1q-6r"
+        data-ad-client="ca-pub-3632293280429419X"
+        data-ad-slot="4760763315">
+    </InFeedAdsense>
   </main>
   <footer class="px-4 d-flex justify-content-between flex-row fixed-bottom">
     <small>© Tjark & Johanna</small>
